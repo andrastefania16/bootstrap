@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BOOTSTRAP GRIDSYSTEM</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<style type="text/css">
+		
+		.pink{ 
+			background: pink;
+			border:1px solid purple; 
+
+
+		}
+		.orange{
+			background: orange;
+			border: 1px dotted red;
+		}
+		.green{
+			background: yellow;
+			border: 1px solid blue;
+			
+		}
+		
+		
+	</style>
+</head>
+<body>
+	 <!-- there are 4 sizes layouts for the grid system xs-phones,sm-tablets,md- medium devices desktops,lg-large desktops -->
+<!-- 	<div class="container">
+	<div class="row">
+		<div class="col-lg-1 col-md-2 pink" >Col Lg1 </div>	
+		<div class="col-lg-1 col-md-2 pink">Col Lg 1</div>
+		<div class="col-lg-1 col-md-2 pink">Col Lg 1</div>
+		<div class="col-lg-1 col-md-2 pink" >Col Lg1 </div>	
+		<div class="col-lg-1 col-md-2 pink">Col Lg 1</div>
+		<div class="col-lg-1 col-md-2 pink">Col Lg 1</div>
+		<div class="col-lg-1 col-md-2 pink" >Col Lg1 </div>	
+		<div class="col-lg-1 col-md-2 pink">Col Lg 1</div>
+		<div class="col-lg-1 col-md-2 pink">Col Lg 1</div>
+		<div class="col-lg-1 col-md-2 pink" >Col Lg1 </div>	
+		<div class="col-lg-1 col-md-2 pink">Col Lg 1</div>
+		<div class="col-lg-1 col-md-2 pink">Col Lg 1</div>
+	</div>	
+	</div> -->
+	<div class="container">
+	<div class="row">
+		<!-- we can take out the col-lg-3 and bootstrap will know to apply the size based on the col-md-3  -->
+		<div class=" col-md-3  col-sm-6 pink">
+			<div class="row">
+				<div class=" col-lg-6 orange">first half</div>
+				<div class=" col-lg-6 orange">other half</div>
+				
+			</div>
+		</div>	
+		<div class=" col-md-3  col-sm-6 pink">Col Lg </div>
+		<div class=" col-md-3  col-sm-6 pink">Col Lg </div>
+		<div class=" col-md-3  col-sm-6 pink">
+			<!-- nested grids row indie of a column inside of a row  -->
+			<div class="row">
+				<div class=" col-lg-2 green">1</div>
+				<div class=" col-lg-2 green">2</div>
+				<div class=" col-lg-2 green">3</div>
+				<div class=" col-lg-2 green">4</div>
+				<div class=" col-lg-2 green">5</div>
+				<div class=" col-lg-2 green">6</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+
+</body>
+</html>
